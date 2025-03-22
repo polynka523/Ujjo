@@ -1,5 +1,6 @@
 .container {
     margin: 0px 22px;
+    
 }
 
 .nav {
@@ -7,7 +8,7 @@
     justify-content: space-around;
     margin-right: 48px;
     border: 1px solid rgba(0, 0, 0, 1);
-    
+    width: 100%;
 }
 
 .nav-item {
@@ -19,6 +20,7 @@
     padding: 15px 44px;
     margin-top: 30px;
     margin-bottom: 30px;
+
 }   
 
 .nav-item:hover {
@@ -48,12 +50,15 @@
 
 .content {
     display: flex;
+    justify-content: space-between;
+    
 }
 
 .content-left {
-    display: block;
-    
-    
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
 }
 
 .img1 {
@@ -68,7 +73,14 @@
 }
 
 .img2 {
+    border: 1px solid rgba(0, 0, 0, 1);
+}
 
+.content-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
 }
 
 .right-text {
@@ -79,5 +91,16 @@
     text-align: center;
     text-transform: uppercase;
     padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 0px;
     border: 1px solid rgba(0, 0, 0, 1);
+    width: 100%;
+    
+}
+
+.sauce {
+    border: 1px solid rgba(0, 0, 0, 1);
+    width: 100%;   
+    padding-bottom: 9px;
+
 }
